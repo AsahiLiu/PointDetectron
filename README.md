@@ -6,7 +6,7 @@ Created by Xu Liu, from <a href="https://air.jd.com/" target="_blank">JD AI Rese
 ## Introduction
 This repository is code release for our NeurIPS 2020 paper (arXiv report [here](https://arxiv.org/pdf/)). and 3DV 2020 paper (arXiv report [here](https://arxiv.org/pdf/))
 
-This repository built on the VoteNet, we empower VoteNet model with Group Contextual Encoding, Dilated Point Diffusion modules as well as the Dilated Point Convolution
+This repository built on the VoteNet, we empower VoteNet model with Group Contextual Encoding, Dense Point Diffusion modules as well as the Dilated Point Convolution.
 ## Citation
 
 
@@ -79,7 +79,9 @@ To test the trained model with its checkpoint:
 
     python eval.py --dataset scannet --checkpoint_path log_scannet/checkpoint.tar --dump_dir eval_scannet --num_point 40000 --cluster_sampling seed_fps --use_3d_nms --use_cls_nms --per_class_proposal --model  ${MODEL_CONFIG}
  
-Example results will be dumped in the `eval_scannet` folder (or any other folder you specify). In default we evaluate with both AP@0.25 and AP@0.5 with 3D IoU on axis aligned boxes. A properly trained VoteNet should have around 58 mAP@0.25 and 35 mAP@0.5.
+Example results will be dumped in the `eval_scannet` folder (or any other folder you specify). 
+
+### MODEL ZOO
 
 ### Train on your own data
 
