@@ -4,7 +4,7 @@ Created by Xu Liu, from <a href="https://air.jd.com/" target="_blank">JD AI Rese
 ![teaser](https://github.com/facebookresearch/votenet/blob/master/doc/teaser.jpg)
 
 ## Introduction
-This repository is code release for our NeurIPS 2020 paper (arXiv report [here](https://arxiv.org/pdf/)). and 3DV 2020 paper (arXiv report [here](https://arxiv.org/pdf/))
+This repository is code release for our NeurIPS 2020 paper Group Contextual Encoding (arXiv report [here](https://arxiv.org/pdf/)). and 3DV 2020 paper Dense Point Diffusion (arXiv report [here](https://arxiv.org/pdf/))
 
 This repository built on the VoteNet, we empower VoteNet model with Group Contextual Encoding, Dense Point Diffusion modules as well as the Dilated Point Convolution.
 ## Citation
