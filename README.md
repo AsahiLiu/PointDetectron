@@ -4,7 +4,7 @@ Created by Xu Liu, from <a href="https://air.jd.com/" target="_blank">JD AI Rese
 ![teaser](https://github.com/facebookresearch/votenet/blob/master/doc/teaser.jpg)
 
 ## Introduction
-This repository is code release for our NeurIPS 2020 paper Group Contextual Encoding (arXiv report [here](https://arxiv.org/pdf/)) and 3DV 2020 paper Dense Point Diffusion (arXiv report [here](https://arxiv.org/pdf/))
+This repository is code release for our NeurIPS 2020 paper Group Contextual Encoding for 3D Poit Clouds (arXiv report [here](https://arxiv.org/pdf/)) and 3DV 2020 paper Dense Point Diffusion for 3D Detection (arXiv report [here](https://arxiv.org/pdf/))
 
 This repository built on the VoteNet, we empower VoteNet model with Group Contextual Encoding, Dense Point Diffusion modules as well as the Dilated Point Convolution.
 ## Citation
@@ -82,7 +82,7 @@ Example results will be dumped in the `eval_scannet` folder (or any other folder
 
 ### MODEL ZOO
 
-|        MODEL SPEC                 |     $ {MODEL_CONFIG}          | SUN-RGBD | ScanNet |
+|        MODEL SPECS                 |     $ {MODEL_CONFIG}          | SUN-RGBD | ScanNet |
 |---------------------------------------------|----------:|----------:|:-------:|
 | [Group Contextual Ecoding (K=8, G=12, C×3)](models/votenet_enc_FP2_K8_G12_C3.py)|votenet_enc_FP2_K8_G12_C3  | 60.7 | 60.8 |
 | [SA2 - Dense Point Diffusion (3,6,12)](models/votenet_SA2_denseaspp3_6_12.py) |votenet_SA2_denseaspp3_6_12| 58.6 | 59.6 |
