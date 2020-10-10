@@ -32,8 +32,7 @@ Install the following Python dependencies (with `pip install`):
 
 ## Run demo
 
-You can download pre-trained models and sample point clouds [HERE](https://drive.google.com/file/d/1oem0w5y5pjo2whBhAqTtuaYuyBu1OG8l/view?usp=sharing).
-Unzip the file under the project root path (`/path/to/project/demo_files`) and then run:
+Following VoteNet, you can download pre-trained VoteNet models and sample point clouds [HERE](https://drive.google.com/file/d/1oem0w5y5pjo2whBhAqTtuaYuyBu1OG8l/view?usp=sharing). Unzip the file under the project root path (`/path/to/project/demo_files`) and then run:
 
     python demo.py
 
@@ -82,6 +81,14 @@ To test the trained model with its checkpoint:
 Example results will be dumped in the `eval_scannet` folder (or any other folder you specify). 
 
 ### MODEL ZOO
+
+|          $ {MODEL_CONFIG}                   | SUN-RGBD | ScanNet |
+|---------------------------------------------|----------:|:-------:|
+| [Group Contextual Ecoding](models/votenet_enc_FP2_K8_G12_C3.py) |  |  |
+| [SA2 - Dense Point Diffusion (3,6,12)](models/votenet_SA2_denseaspp3_6_12.py) |  |  |
+| [SA2 - Dense Point Diffusion (3,6)](models/votenet_SA2_denseaspp3_6.py) |  |  |
+| [Group Contextual Ecoding](models/votenet_enc_FP2_K8_G12_C3.py) |  |  |
+| [VoteNet](models/votenet_enc_FP2_K8_G12_C3.py) |  |  |
 
 ### Train on your own data
 
