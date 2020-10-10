@@ -84,10 +84,10 @@ Example results will be dumped in the `eval_scannet` folder (or any other folder
 
 |          $ {MODEL_CONFIG}                   | SUN-RGBD | ScanNet |
 |---------------------------------------------|----------:|:-------:|
-| [Group Contextual Ecoding (K=8, G=12, C×3)](models/votenet_enc_FP2_K8_G12_C3.py) |  |  |
-| [SA2 - Dense Point Diffusion (3,6,12)](models/votenet_SA2_denseaspp3_6_12.py) |  |  |
-| [SA2 - Dense Point Diffusion (3,6)](models/votenet_SA2_denseaspp3_6.py) |  |  |
-| [VoteNet](models/votenet_enc_FP2_K8_G12_C3.py) |  |  |
+| [Group Contextual Ecoding (K=8, G=12, C×3)](models/votenet_enc_FP2_K8_G12_C3.py) | 60.7 | 60.8 |
+| [SA2 - Dense Point Diffusion (3,6,12)](models/votenet_SA2_denseaspp3_6_12.py) | 58.6 | 59.6 |
+| [SA2 - Dense Point Diffusion (3,6)](models/votenet_SA2_denseaspp3_6.py) | 58.7 | 58.9 |
+| [VoteNet](models/votenet_enc_FP2_K8_G12_C3.py) | 57.7 | 58.6 |
 
 
 
