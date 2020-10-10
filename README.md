@@ -87,7 +87,6 @@ Example results will be dumped in the `eval_scannet` folder (or any other folder
 | [Group Contextual Ecoding](models/votenet_enc_FP2_K8_G12_C3.py) |  |  |
 | [SA2 - Dense Point Diffusion (3,6,12)](models/votenet_SA2_denseaspp3_6_12.py) |  |  |
 | [SA2 - Dense Point Diffusion (3,6)](models/votenet_SA2_denseaspp3_6.py) |  |  |
-| [Group Contextual Ecoding](models/votenet_enc_FP2_K8_G12_C3.py) |  |  |
 | [VoteNet](models/votenet_enc_FP2_K8_G12_C3.py) |  |  |
 
 ### Train on your own data
