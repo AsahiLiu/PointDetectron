@@ -88,6 +88,9 @@ Example results will be dumped in the `eval_scannet` folder (or any other folder
 | [SA2 - Dense Point Diffusion (3,6,12)](models/votenet_SA2_denseaspp3_6_12.py) |  |  |
 | [SA2 - Dense Point Diffusion (3,6)](models/votenet_SA2_denseaspp3_6.py) |  |  |
 | [VoteNet](models/votenet_enc_FP2_K8_G12_C3.py) |  |  |
+
+
+
 The ablation models in the papers can be derived from the models listed above, therefore, we did not list them all to save the space.
 ### Train on your own data
 
