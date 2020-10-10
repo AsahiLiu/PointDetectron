@@ -95,7 +95,7 @@ Example results will be dumped in the `eval_scannet` folder (or any other folder
 [For Pro Users] If you have your own dataset with point clouds and annotated 3D bounding boxes, you can create a new dataset class and train VoteNet on your own data. To ease the proces, some tips are provided in this [doc](https://github.com/facebookresearch/votenet/blob/master/doc/tips.md).
 
 ## Acknowledgements
-We want to thank Charles Qi for his VoteNet ([original codebase](https://github.com/facebookresearch/votenet)) Hang Zhang for his EncNet ([original codebase](https://hangzhang.org/PyTorch-Encoding/)) and  Erik Wijmans for his PointNet++ implementation in Pytorch ([original codebase](https://github.com/erikwijmans/Pointnet2_PyTorch)).
+We want to thank Charles Qi for his VoteNet ([original codebase](https://github.com/facebookresearch/votenet)), Hang Zhang for his EncNet ([original codebase](https://hangzhang.org/PyTorch-Encoding/)) and  Erik Wijmans for his PointNet++ implementation in Pytorch ([original codebase](https://github.com/erikwijmans/Pointnet2_PyTorch)).
 
 ## License
 votenet is relased under the MIT License. See the [LICENSE file](https://arxiv.org/pdf/1904.09664.pdf) for more details.
