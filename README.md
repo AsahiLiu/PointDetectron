@@ -4,7 +4,7 @@ Created by Xu Liu, from <a href="https://air.jd.com/" target="_blank">JD AI Rese
 ![teaser](https://github.com/facebookresearch/votenet/blob/master/doc/teaser.jpg)
 
 ## Introduction
-This repository is code release for our NeurIPS 2020 paper Group Contextual Encoding (arXiv report [here](https://arxiv.org/pdf/)). and 3DV 2020 paper Dense Point Diffusion (arXiv report [here](https://arxiv.org/pdf/))
+This repository is code release for our NeurIPS 2020 paper Group Contextual Encoding (arXiv report [here](https://arxiv.org/pdf/)) and 3DV 2020 paper Dense Point Diffusion (arXiv report [here](https://arxiv.org/pdf/))
 
 This repository built on the VoteNet, we empower VoteNet model with Group Contextual Encoding, Dense Point Diffusion modules as well as the Dilated Point Convolution.
 ## Citation
@@ -54,11 +54,11 @@ For ScanNet, follow the [README](https://github.com/facebookresearch/votenet/blo
 
 ### Train and test on SUN RGB-D
 
-To train a new VoteNet model on SUN RGB-D data (depth images):
+To train a new  model ${MODEL_CONFIG} in the MODEL ZOO on SUN RGB-D data (depth images):
 
     CUDA_VISIBLE_DEVICES=0 python train.py --dataset sunrgbd --log_dir log_sunrgbd --model ${MODEL_CONFIG}
 
-You can use `CUDA_VISIBLE_DEVICES=0,1,2` to specify which GPU(s) to use. Without specifying CUDA devices, the training will use all the available GPUs and train with data parallel (Note that due to I/O load, training speedup is not linear to the nubmer of GPUs used). Run `python train.py -h` to see more training options (e.g. you can also set `--model boxnet` to train with the baseline BoxNet model).
+You can use `CUDA_VISIBLE_DEVICES=0,1,2` to specify which GPU(s) to use. Without specifying CUDA devices, the training will use all the available GPUs and train with data parallel (Note that due to I/O load, training speedup is not linear to the nubmer of GPUs used). 
 While training you can check the `log_sunrgbd/log_train.txt` file on its progress, or use the TensorBoard to see loss curves.
 
 To test the trained model with its checkpoint:
@@ -70,7 +70,7 @@ Final evaluation results will be printed on screen and also written in the `log_
 
 ### Train and test on ScanNet
 
-To train a VoteNet model on Scannet data (fused scan):
+To train a  model ${MODEL_CONFIG} in the MODEL ZOO on Scannet data (fused scan):
 
     CUDA_VISIBLE_DEVICES=0 python train.py --dataset scannet --log_dir log_scannet --num_point 40000 --model  ${MODEL_CONFIG}
 
@@ -82,12 +82,12 @@ Example results will be dumped in the `eval_scannet` folder (or any other folder
 
 ### MODEL ZOO
 
-|          $ {MODEL_CONFIG}                   | SUN-RGBD | ScanNet |
-|---------------------------------------------|----------:|:-------:|
-| [Group Contextual Ecoding (K=8, G=12, C×3)](models/votenet_enc_FP2_K8_G12_C3.py) | 60.7 | 60.8 |
-| [SA2 - Dense Point Diffusion (3,6,12)](models/votenet_SA2_denseaspp3_6_12.py) | 58.6 | 59.6 |
-| [SA2 - Dense Point Diffusion (3,6)](models/votenet_SA2_denseaspp3_6.py) | 58.7 | 58.9 |
-| [VoteNet](models/votenet_enc_FP2_K8_G12_C3.py) | 57.7 | 58.6 |
+|        MODEL SPEC                 |     $ {MODEL_CONFIG}          | SUN-RGBD | ScanNet |
+|---------------------------------------------|----------:|----------:|:-------:|
+| [Group Contextual Ecoding (K=8, G=12, C×3)](models/votenet_enc_FP2_K8_G12_C3.py)|votenet_enc_FP2_K8_G12_C3  | 60.7 | 60.8 |
+| [SA2 - Dense Point Diffusion (3,6,12)](models/votenet_SA2_denseaspp3_6_12.py) |votenet_SA2_denseaspp3_6_12| 58.6 | 59.6 |
+| [SA2 - Dense Point Diffusion (3,6)](models/votenet_SA2_denseaspp3_6.py)|votenet_SA2_denseaspp3_6| 58.7 | 58.9 |
+| [VoteNet](models/votenet.py) | votenet(default)| 57.7 | 58.6 |
 
 
 
