@@ -87,7 +87,7 @@ Example results will be dumped in the `eval_scannet` folder (or any other folder
 | [Group Contextual Ecoding (K=8, G=12, C×3)](models/votenet_enc_FP2_K8_G12_C3.py)|votenet_enc_FP2_K8_G12_C3  | 60.7 | 60.8 |
 | [SA2 - Dense Point Diffusion (3,6,12)](models/votenet_SA2_denseaspp3_6_12.py) |votenet_SA2_denseaspp3_6_12| 58.6 | 59.6 |
 | [SA2 - Dense Point Diffusion (3,6)](models/votenet_SA2_denseaspp3_6.py)|votenet_SA2_denseaspp3_6| 58.7 | 58.9 |
-| [VoteNet](models/votenet.py) | votenet(default)| 57.7 | 58.6 |
+| [VoteNet](models/votenet.py) | votenet (default)| 57.7 | 58.6 |
 
 
 
