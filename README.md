@@ -6,7 +6,7 @@ Created by Xu Liu, from <a href="https://air.jd.com/" target="_blank">JD AI Rese
 ## Introduction
 This repository is code release for our NeurIPS 2020 paper Group Contextual Encoding for 3D Poit Clouds (arXiv report [here](https://arxiv.org/pdf/)) and 3DV 2020 paper Dense Point Diffusion for 3D Detection (arXiv report [here](https://arxiv.org/pdf/))
 
-This repository built on the VoteNet, we empower VoteNet model with Group Contextual Encoding Block, Dense Point Diffusion modules as well as the Dilated Point Convolution.
+This repository is built on the VoteNet, we empower VoteNet model with Group Contextual Encoding Block, Dense Point Diffusion modules as well as the Dilated Point Convolution.
 ## Citation
 
 
