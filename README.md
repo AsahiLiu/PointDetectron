@@ -32,7 +32,7 @@ Install the following Python dependencies (with `pip install`):
 
 ## Run demo
 
-Following VoteNet, you can download pre-trained VoteNet models and sample point clouds [HERE](https://drive.google.com/file/d/1oem0w5y5pjo2whBhAqTtuaYuyBu1OG8l/view?usp=sharing). Unzip the file under the project root path (`/path/to/project/demo_files`) and then run:
+Following VoteNet, you can  run the demo with the pretrained models under the project root path (`/path/to/project/demo_files`) and then run:
 
     python demo.py
 
@@ -47,6 +47,7 @@ Detection results will be dumped to `demo_files/scannet_results`.
 ## Training and evaluating
 
 ### Data preparation
+Please follow the instructions of VoteNet to prepare for the datasets.
 
 For SUN RGB-D, follow the [README](https://github.com/facebookresearch/votenet/blob/master/sunrgbd/README.md) under the `sunrgbd` folder.
 
@@ -91,7 +92,7 @@ Example results will be dumped in the `eval_scannet` folder (or any other folder
 
 
 
-The ablation models in the papers can be derived from the models listed above, therefore, we did not list them all to save the space.
+The ablation models in the papers can be derived from the models listed above, therefore, we did not list them all.
 ### Train on your own data
 
 [For Pro Users] If you have your own dataset with point clouds and annotated 3D bounding boxes, you can create a new dataset class and train VoteNet on your own data. To ease the proces, some tips are provided in this [doc](https://github.com/facebookresearch/votenet/blob/master/doc/tips.md).
