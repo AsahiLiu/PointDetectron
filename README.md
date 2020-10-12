@@ -1,7 +1,7 @@
 # Poinnt Detectron
 Created by Xu Liu, from <a href="https://air.jd.com/" target="_blank">JD AI Research</a> and <a href="https://www.u-tokyo.ac.jp/focus/ja/tags/?tag=UTOKYO%20VOICES" target="_blank">The University of Tokyo</a>.
 
-![teaser](https://github.com/facebookresearch/votenet/blob/master/doc/teaser.jpg)
+![teaser](https://github.com/facebookresearch/votenet/blob/master/doc/NIPS_new.pdf)
 
 ## Introduction
 This repository is code release for our NeurIPS 2020 paper Group Contextual Encoding for 3D Poit Clouds (arXiv report [here](https://arxiv.org/pdf/)) and 3DV 2020 paper Dense Point Diffusion for 3D Detection (arXiv report [here](https://arxiv.org/pdf/))
