@@ -1,4 +1,4 @@
-# Poinnt Detectron
+# Point Detectron
 Created by Xu Liu, from <a href="https://air.jd.com/" target="_blank">JD AI Research</a> and <a href="https://www.u-tokyo.ac.jp/focus/ja/tags/?tag=UTOKYO%20VOICES" target="_blank">The University of Tokyo</a>.
 
 ![teaser](https://github.com/AsahiLiu/PointDetectron/blob/main/doc/NIPS_new.jpeg)
