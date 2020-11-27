@@ -8,13 +8,13 @@ This repository is code release for our NeurIPS 2020 paper Group Contextual Enco
 
 This repository is built on the VoteNet, we empower VoteNet model with Group Contextual Encoding Block, Dense Point Diffusion modules as well as the Dilated Point Convolution.
 ## Citation
-@article{liu2020group,
+  @article{liu2020group,
   title={Group Contextual Encoding for 3D Point Clouds},
   author={Liu, Xu and Li, Chengtao and Wang, Jian and Wang, Jingbo and Shi, Boxin and He, Xiaodong},
   journal={Advances in Neural Information Processing Systems},
   volume={33},
   year={2020}
-}
+  }
 
 ## Installation
 
